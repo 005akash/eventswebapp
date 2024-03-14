@@ -1,0 +1,26 @@
+.pmain{
+    height: 40vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    
+    display: flex;
+}
+
+.poster{
+    height: 220px;
+    width: 80%;
+  background-color: rgb(117, 89, 53);
+    object-fit: fill;
+   
+}
+
+.pic{
+
+    background-image: url(poster\ \(2\).png);
+    height: 100%;
+    width: 100%;
+  
+    background-position: center;
+    background-size: cover;
+}

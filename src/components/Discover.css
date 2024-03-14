@@ -1,0 +1,153 @@
+.continue{
+
+height: auto;
+width: 80%;
+background-color: aliceblue;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+
+}
+
+.c1{
+    height: 250px;
+    border-radius: 17px;
+    width: 500px;
+    margin: 40px 40px 40px 40px;
+    background-color: rgba(250, 235, 215, 0.404);
+
+
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.b1,.a1{
+    height: 200px;
+margin: 20px 20px 20px 20px;
+    width: 200px;
+    border-radius: 7px;
+    display: flex;
+}
+
+.b1{
+    background-position: center;
+    background-size: cover;
+  object-fit: scale-down;
+  height: 200px;
+  width: 200px;
+    background-image: url(nine.jpg);
+}
+
+.a1{
+    background-color: rgba(63, 244, 18, 0.235);
+}
+
+
+
+
+
+.a1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.a1 p{
+    padding: 17px 17px;
+}
+
+
+
+
+@media screen and (max-width:899px){
+    .a1 p{
+        padding: 7px 10px;
+        font-size: smaller;
+    }
+    
+
+
+    .continue{
+
+        height: auto;
+        width: 99%;
+       
+  
+        
+        
+        }
+
+
+    .c1{
+        height: 250px;
+       
+        width: 450px;
+        margin: 40px 40px 40px 40px;
+     
+    
+    
+
+    }
+    
+    
+    .b1,.a1{
+        height: 200px;
+    margin: 10px 10px 10px 10px;
+        width: 170px;
+
+    
+    } 
+
+
+}
+
+
+
+@media screen  and (min-width:900px) and (max-width:1300px){
+    
+
+
+    .a1 p{
+        padding: 0px 5px;
+        font-size: smaller;
+    }
+    
+
+
+    .continue{
+
+        height: auto;
+        width: 99%;
+       
+  
+        
+        
+        }
+
+
+    .c1{
+        height: 200px;
+       
+        width: 400px;
+        margin: 40px 40px 40px 40px;
+     
+    
+    
+
+    }
+    
+    
+    .b1,.a1{
+        height: 150px;
+    margin: 10px 10px 10px 10px;
+        width: 150px;
+
+    
+    }
+
+
+}

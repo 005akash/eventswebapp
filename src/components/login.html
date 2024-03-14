@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="loginmain">
+        <div class="login">
+            <div class="login1">
+                <div class="pics">
+                    <div class="slide1"></div>
+                    <div class="slide2"></div>
+                    <div class="slide3"></div>
+                    <div class="slide4"></div>
+                </div>
+            </div>
+            <div class="login2">
+
+
+
+                <div class="logo">
+
+
+                </div>
+
+
+
+                <form action="#" method="post">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                    <br><br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <br><br>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        body {
+            margin: 0%;
+            padding: 0%;
+            font-family: Arial, sans-serif;
+        }
+
+
+
+
+
+h1{
+    font-family: ;
+    color: #ccc;
+}
+
+
+
+
+
+        .loginmain {
+            height: 100vh;
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .login {
+            height: 70vh;
+            width: 70%;
+            background-color: rgb(255, 255, 255);
+            border-radius: 17px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            overflow: hidden;
+        }
+
+        .login1 {
+            height: 100%;
+            width: 50%;
+            background-color: rgb(173, 164, 164);
+            overflow: hidden;
+        }
+
+        .login2 {
+
+            height: 100%;
+            width: 50%;
+            background-color: rgba(152, 157, 155, 0.126);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            flex-direction: column; /* Updated to column */
+        }
+
+        .login2 form {
+            text-align: center;
+        }
+
+        .login2 label {
+            display: block;
+            font-size: 14px;
+            color: #140505;
+            margin-bottom: 5px;
+        }
+
+        .login2 input {
+            filter: drop-shadow(10px 10px 200px #ffffff) drop-shadow(-10px -10px 50px #ffffff);    
+            width: 100%;
+            padding: 8px;
+            font-size: 14px;
+            border: 1px solid #000000;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        .login2 button {
+            width: 100%;
+            padding: 7px;
+            background-color: #ec0000c2;
+            color: #fff;
+            font-size: 16px;
+            border: none;
+            border-radius: 7px 4px 20px 4px;
+            cursor: pointer;
+        }
+
+        .login2 button:hover {
+            background-color: #000000;
+        }
+
+        
+.pics {
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff00;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: hidden;
+    z-index: 1;
+    opacity: 1;
+   
+    
+    margin-bottom: 70px;
+    position: relative; /* Ensure the position is relative for absolute positioning of shadows */
+}
+
+
+
+.logo{
+    height: 160px;
+    width: 160px;
+    background-position: center;
+    
+    background-image: url(lg.png);
+    margin-top: 17px;
+    background-size: cover;
+}
+
+
+
+.slide1{
+    height: 100%;
+    width: 100%;
+   
+    object-fit:cover;
+    background-position: center;
+    background-size: cover;
+    animation: dime4 10s ease-in-out infinite;
+    animation-timing-function: ease-in-out;
+    
+}
+
+
+
+
+@keyframes dime4{
+
+
+0%{
+    background-image: url(c5e7d241b99ac62f3139469dfd0e3984.gif);
+    object-fit: scale-down;
+}
+50%{
+    background-image: url(1d531067a3f260fb2b835624395c9e41.gif);
+    object-fit: scale-down;
+}
+100%{
+    background-image: url(508caa118b2ba91106ab4c0973617f3d.gif);
+    object-fit: scale-down;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:700px) and (max-width:1000px){
+
+.login{
+    height: 90vh;
+    width: 90%;
+}
+    .login1{
+    height: 100%;
+width: 50%;
+    
+}
+.login2{
+    height: 100%;
+    width: 50%;
+    
+}
+
+}
+
+@media screen and (max-width:699px){
+
+    .login{
+    height: 90vh;
+    width: 90%;
+}
+    .login1{
+    height: 50%;
+    width: 100%;
+    
+}
+.login2{
+    height: 50%;
+    width: 100%;
+    
+}
+
+}
+    </style>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
